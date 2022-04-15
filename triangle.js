@@ -1,20 +1,24 @@
-const input = document.querySelectorAll('.angle-input');
+const inputs = document.querySelectorAll('.angle-input');
 const formTrainglebtn = document.querySelector('#form-traingle-btn');
-const outputEI = document.querySelector('#output');
+const outputE1 = document.querySelector('#output');
 
-function calculateSumOfAngles (angle1,angle2,angle3) {
-    const sumofAngles = angle1 + angle2 + angle3; 
-    return sumofAngles;
+function sumOfAngles (angle1,angle2,angle3) {
+    const sum = angle1 + angle2 + angle3; 
+    return sum;
 }
 
 function formTriangle() {
-    const sumOfAngles = calculateSumOfAngles(Number(input[0].value),Number
-    (input[1].value),Number(input[2].value));
-    if(sumOfAngles === 180) {
-        outputEI.innerText = "angle forms the triangle dude";
+    const sum = sumOfAngles (Number(inputs[0].value),
+     Number(inputs[1].value), 
+     Number(inputs[2].value)
+     );
+    if (sum === 180) {
+        outputE1.innerText = "angle forms the triangle dude"
     }
     else {
-        outputEI.innerText = "it dosen't form a Triangle dude";
+        outputE1.innerText = "it dosen't form a Triangle dude"
     }
 }
+
+formTrainglebtn.addEventListener("click",formTriangle);
 
