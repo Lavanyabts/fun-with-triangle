@@ -1,6 +1,6 @@
 const input = document.querySelectorAll('.angle-input');
-const traingleBtn = document.querySelector('#traingle-btn');
-const output = document.querySelector('.output');
+const triangleBtn = document.querySelector('#triangle-btn');
+const output = document.querySelector('#output');
 
 function sumOfAngles (angle1,angle2,angle3) {
     const sum = angle1 + angle2 + angle3; 
@@ -13,12 +13,12 @@ function triangle() {
      Number(input[2].value)
      );
     if (sum === 180) {
-        output.innerText = "angle forms the triangle dude"
+        output.innerText = "angle forms the triangle dude";
     }
     else {
-        output.innerText = "it dosen't form a Triangle dude"
+        output.innerText = "it dosen't form a Triangle dude";
     }
 }
 
-traingleBtn.addEventListener("click",triangle);
+triangleBtn.addEventListener("click",triangle);
 
