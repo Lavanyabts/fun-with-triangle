@@ -1,5 +1,5 @@
 const quizForm = document.querySelector('.quiz-form');
-const submitAnswerBtn = document.querySelector('#submit-answer-btn');
+const submitAnswerBtn = document.querySelector('#triangle-btn');
 const output = document.querySelector('#output');
 
 const correctAnswer = ["36 cm", "X=Y" ];

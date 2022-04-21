@@ -1,3 +1,37 @@
-.output {
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Dosis:wght@500&family=Fira+Sans+Condensed:ital,wght@0,300;1,200&family=Fredoka:wght@500&family=Open+Sans:ital@1&family=Pacifico&family=Patrick+Hand&family=Rubik&family=Supermercado+One&display=swap" rel="stylesheet');
+
+body {
+    font-family:  'Comic Neue', cursive;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #19180A;
+    color: #E71D36;
+}
+
+body {
+    font-family: 'neue', comic;
+    background-color: var(--primary-color);
+    margin: 1vh;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+input {
+    border-radius: 2px;
+    padding: 0.5rem;
+    font-size: large;
+    margin: 1rem;
+    text-align: center;
 }
