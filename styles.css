@@ -6,13 +6,12 @@ body {
 }
 
 :root {
-    --primary-color: #19180A;
-    color: #E71D36;
+    --primary-color: #ff0000;
 }
 
 body {
     font-family: 'neue', comic;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
     margin: 1vh;
     font-weight: bolder;
 }
