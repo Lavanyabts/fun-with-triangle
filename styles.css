@@ -16,31 +16,57 @@ body {
     font-weight: bolder;
 }
 
+p {
+    text-align: center;
+    padding: 1rem;
+}
+
 h1 {
     text-align: center;
     padding: 1rem;
 }
 
+label .radio {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    vertical-align: middle;
+   
+    border-radius: 50%;
+    padding: 2px;
+    margin:0 5px;
+}
+
 label {
     font-weight: 500;
-    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    margin: auto;
+    margin-top: 2rem;
+    display: block;
     text-align: center;
 }
 
 input {
-    border-radius: 2px;
-    padding: 0.5rem;
-    font-size: large;
+    background-color: white;
     border: 2px solid var(--primary-color);
-    margin: 1rem;
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    margin: auto;
+    margin-top: 2rem;
+    display: block;
     text-align: center;
 }
-#check-btn
-#area-btn
+
+#area-btn,
+#check-btn,
+#triangle-btn,
 #quiz-btn
-#triangle-btn
  {
-    background-color: black;
+    background-color: white;
     border: 2px solid var(--primary-color);
     color: var(--primary-color);
     padding: 0.4rem 1rem;
@@ -50,4 +76,10 @@ input {
     margin: auto;
     margin-top: 2rem;
     display: block;
+}
+
+#output {
+  text-align: center;
+  padding: 3rem;
+  font-size: x-large;
 }
