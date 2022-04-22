@@ -1,5 +1,5 @@
 const quizForm = document.querySelector('.quiz-form');
-const submitAnswerBtn = document.querySelector('#triangle-btn');
+const quizBtn = document.querySelector('#quiz-btn');
 const output = document.querySelector('#output');
 
 const correctAnswer = ["36 cm", "X=Y" ];
@@ -17,4 +17,4 @@ function Score() {
 output.innerText = "Your score is "+ score;
 }
 
-submitAnswerBtn.addEventListener('click', Score);
+quizBtn.addEventListener('click', Score);

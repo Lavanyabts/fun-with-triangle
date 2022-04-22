@@ -31,6 +31,23 @@ input {
     border-radius: 2px;
     padding: 0.5rem;
     font-size: large;
+    border: 2px solid var(--primary-color);
     margin: 1rem;
     text-align: center;
+}
+#check-btn
+#area-btn
+#quiz-btn
+#triangle-btn
+ {
+    background-color: black;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 2rem;
+    display: block;
 }

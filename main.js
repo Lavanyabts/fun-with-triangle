@@ -1,5 +1,5 @@
 const sides = document.querySelectorAll('.side-input');
-const hypoBtn = document.querySelector('#triangle-btn');
+const checkBtn = document.querySelector('#check-btn');
 const output = document.querySelector('#output');
 function sumOfSquares(a,b) {
     const sum = a*a + b*b;
@@ -13,5 +13,5 @@ function calculateHypo() {
     output.innerText = "The lenght of Hypotenuse is " + lenghtOfHypo;
 }
 
-hypoBtn.addEventListener("click",calculateHypo)
+checkBtn.addEventListener("click",calculateHypo)
 
