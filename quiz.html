@@ -8,23 +8,53 @@
     <link href="styles.css" rel="stylesheet"  />
 </head>
 <body>
+    
+    <nav class="navigation container">
+    <div class="nav-brand">Fun Triangles</div>
+        <ul class="footer-list nav-pills">
+                <a class="link" href="/">Triangle? |</a>
+                <a class="link" href="/area.html"> Area? |</a>
+                <a class="link" href="/index.html"> hypotenuse Triangle |</a>
+                <a class="link link-active" href="/quiz.html"> quiz</a>
+        </ul>
+    </nav>
     <h1>Triangle Quiz</h1>
-    <form class='quiz-form'>
+    <form class='quiz-form'>    
         <div class="question-container">
             <p>The sum of all the three sides of an equilateral triangle is 72 &redic;3 cm. Find the height of the triangle</p>
-            <label><input type="radio" name="question 1" value="48 cm"  />48 cm</label>
-            <label><input type="radio" name="question 1" value="36 cm"  />36 cm</label>
-            <label><input type="radio" name="question 1" value="124 cm"  />124 cm</label>
+        <label>
+            <input type="radio" name="question 1" value="48 cm"  />48 cm
+        </label>
+        <label>
+            <input type="radio" name="question 1" value="36 cm"  />36 cm
+        </label>
+        <label>
+            <input type="radio" name="question 1" value="124 cm"  />124 cm
+        </label>
         </div>
         <div class="question-container">
             <p> If there is an equilateral triangle having area A and there is a square having an area B and they have the same perimeter, then</p>
-            <label><input type="radio" name="question 2" value="x greater than Y"  />x greater than Y</label>
-            <label><input type="radio" name="question 2" value="X=Y"  />X=Y</label>
-            <label><input type="radio" name="question 2" value="X ≤ Y"  />X≤Y</label>
+        <label>
+            <input type="radio" name="question 2" value="x greater than Y"  />x greater than Y
+        </label>
+        <label>
+            <input type="radio" name="question 2" value="X=Y"  />X=Y
+        </label>
+        <label>
+            <input type="radio" name="question 2" value="X ≤ Y"  />X≤Y
+        </label>
         </div>
+    
     </form>
     <button id="quiz-btn">Answer</button>
     <div id="output"></div>
+    <footer class="footer">
+        <div class="footer-header"></div>
+        <ul class="footer-list">
+        <a class="link" href="https://github.com/Lavanyabts">Github |</a>
+        <a class="link" href="https://twitter.com/bts_lavanyaa"> Twitter</a>
+        </ul>
+    </footer>
     <script src="quiz.js"></script>
 </body>
 </html>

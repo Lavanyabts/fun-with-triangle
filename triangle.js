@@ -14,7 +14,7 @@ function triangle() {
         output.innerText = "angle forms the triangle dude";
     }
     else {
-        output.innerText = "it dosen't form a Triangle dude";
+        output.innerText = "it won't form a Triangle dude";
     }
 }
 triangleBtn.addEventListener("click",triangle);
