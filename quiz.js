@@ -2,7 +2,7 @@ const quizForm = document.querySelector('.quiz-form');
 const quizBtn = document.querySelector('#quiz-btn');
 const output = document.querySelector('#output');
 
-const correctAnswer = ["36 cm", "X=Y", "Pythagoras" ];
+const correctAnswer = ["36 cm", "X=Y", "Pythagorass" ];
 
 function Score() {
     let score = 0;
